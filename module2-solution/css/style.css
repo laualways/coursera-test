@@ -1,3 +1,91 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  background-color: lightgrey;
+  padding: 0px;
+  margin: 10px;
+  border: 2px solid black;
+  width: 350px; 
+  height: fit-content;
+  float: left;
+  box-sizing: border-box;
+  font-family: Courier;
+  margin: 10px;
+}
+
+.content {
+  background-color: lightgrey;
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  height: fit-content;
+  color: black;
+  display: flex;
+}
+
+.content1 {
+	background-color: lightgrey;
+	float: right;
+	margin: 5px;
+    padding: 5px;
+    color: black;
+    display: flex;
+}
+
 h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: Courier;
+
+}
+h3 {
+	position: relative;
+	border: 1px solid black;
+	background-color: pink;
+	color: black;
+	float: right;
+	margin: 0;
 	text-align: center;
+	padding: 2px 8px 2px 8px;
+}
+
+.red {
+	position: relative;
+	border: 1px solid black;
+	background-color: red;
+	color: white;
+	float: right;
+	margin: 0;
+	text-align: center;
+	padding: 2px 8px 2px 8px;
+}
+.yellow {
+	position: relative;
+	border: 1px solid black;
+	background-color: lightgoldenrodyellow;
+	color: black;
+	float: right;
+	margin: 0;
+	text-align: center;
+	padding: 2px 8px 2px 8px;
+}
+/********** Desktop devices only **********/
+@media (min-width: 992px) { body {
+	margin: 0px;
+}
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {body {
+	margin: 0px;
+}
+}
+/********** Mobile devices only **********/
+@media (max-width: 767px) {body {
+	margin:20px;
+}
 }
